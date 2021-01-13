@@ -1,0 +1,23 @@
+Bootstrap: docker
+From: nucci2/r-4.0.3-rstudio:latest
+
+%labels
+    Author: Jason C. Nucciarone
+    Maintainer: Jason C. Nucciarone
+    Owner: Jason C. Nucciarone
+    Version: v1.0
+
+%environment
+    export R_ROOT=/usr/local/lib/R  
+    export LD_LIBRARY_PATH=/usr/local/lib:${R_ROOT}/lib:${LD_LIBRARY_PATH}
+    export LIBRARY_PATH=/usr/local/lib:${R_ROOT}/lib:${LIBRARY_PATH}
+    export CPATH=${R_ROOT}/include:${CPATH}
+    export LC_ALL=en_US.utf8
+    export LANG=en_US.utf8
+    export RSTUDIO_WHICH_R=/usr/local/bin/R
+    export XDG_RUNTIME_DIR=${HOME}
+
+%help
+    If you have any questions or issues regarding
+    the use of this container then please contact
+    the ICDS-iASK center at iask@ics.psu.edu
