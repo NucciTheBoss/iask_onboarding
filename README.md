@@ -20,23 +20,19 @@ In my opinion, these are the biggest topics that need to be covered in the i-ASK
 
 # Presentations
 
-* **Day 1:** Level up your workflow
+* **Day 1:** Level up your workflow!
 
   * This presentation is to help you discover all the amazing tools that you have available to you. Whether it's an SSH client or user-level package manager, this presentation has you covered. Also, at the end I also recommend some great books that serve as a great point of reference should you forget anything.
 
-* **Day 2:** Use Singularity and Docker to build and deploy software
+* **Day 2:** Use Singularity and Docker to build and deploy software!
 
   * Ever had to install a lot of packages, but you just don't have the system-level dependencies available to you? Well this tutorial has you covered! Learn how to build a Singularity container from scratch! Learn how to build a Docker Container, and then covert it to a Singularity image!
-
-* **Day 3:** Keep your environment organized with Anaconda
-
-  * Busy installing packages? Learn how to use Anaconda to manage your environment. I don't know what's worse: a package that won't install, or an environment that is impossible to replicate! Learn how Anaconda can prevent this from happening! Also, learn how you can utilize Anaconda environments in Jupyter Notebook.
 
 # Notes
 These are just my markdown notes to help me stay organized while going through the presentations. Feel free to view them to see where I am at during the presentations.
 
 # Source Code
-All the source code can be found in either the `day_1`, `day_2`, or `day_3` directories.
+All the source code can be found in either the `day_1` or `day_2` directories.
 
 # Important Links
 Here I have gathered the important links that I used throughout my presentations. Feel free to use these links if you ever need a refresher on the material we cover during the onboarding sessions:
@@ -52,6 +48,8 @@ Here I have gathered the important links that I used throughout my presentations
 * VSCode Website - https://code.visualstudio.com/  
 * VSCodium Website - https://vscodium.com/
 * Lmod Documentation - https://lmod.readthedocs.io/en/latest/
+* qsub Documentation - http://docs.adaptivecomputing.com/torque/4-0-2/Content/topics/commands/qsub.htm
+* ICDS User Guide - https://www.icds.psu.edu/computing-services/roar-user-guide/
 
 # License
 This repository is licensed under the GNU General Public License v3.0. 
