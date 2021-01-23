@@ -6,6 +6,8 @@ In order to ensure that everything goes according to plan, ensure that you have 
 
 Once these are installed, you will be ready to go to set up the Singularity VM!
 
+---
+
 ## Slide 8 (Set up your build environment!)
 Open the terminal on your computer and then enter the following commands to create and start the Singularity VM (in my case I am using the [Windows terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab)):
 
@@ -16,6 +18,8 @@ cd SINGULARITY
 vagrant init sylabs/singularity-3.5-centos-7-64 --box-version 20191206.0.0
 vagrant up
 ```
+
+---
 
 ## Slide 9 (Time to build your container!)
 Use the following commands to build the Singularity container inside the VM:
@@ -35,6 +39,8 @@ scp image.sif jcn23@datamgr.aci.ics.psu.edu:~/scratch
 
 *It's going to take a litle bit to upload the container, so handle this before the presentation.*
 
+---
+
 ## Slide 10 (Demonstration!)
 Connect to your Interactive Desktop Session, and then use the following commands to launch RStudio:
 
@@ -44,6 +50,8 @@ singularity -s exec image.sif rstudio &> /dev/null
 ```
 
 **Warning:** It will take a little bit for RStudio to launch!
+
+---
 
 ## Slide 11 (Where should you go from here?)
 Take this time to ask everyone questions, and be sure to walk through what a Docker file looks like.
