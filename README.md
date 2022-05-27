@@ -32,7 +32,7 @@ These are the biggest topics that need to be covered in the i-ASK center. There 
 These are just markdown notes to help the presenter stay organized while going through the presentations. Feel free to view them to see where you are at during the presentations.
 
 # Source Code
-All the source code can be found in either the `day_1` or `day_2` directories.
+All the source code used during the onboarding sessions can be found inside the respecitve `presentation_*` directory.
 
 # Important Links
 Here are the important links that have been used throughout the presentations. Feel free to use these links if you ever need a refresher on the material covered during the onboarding sessions:
